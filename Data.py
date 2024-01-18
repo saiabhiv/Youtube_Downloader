@@ -67,8 +67,7 @@ app = customtkinter.CTk()
 app.geometry("1920x1200")
 app.title("Youtube Downloader")
 
-#Background Image
-bg = PhotoImage(file=resource_path("images\\Background.png"))
+
 
 #create a Label
 bg_label = Label(app, image=bg)
